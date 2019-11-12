@@ -17,6 +17,22 @@ fonction2(tableau)
 print ("Apres passage dans fonction2")
 print (tableau)
 
+# Notez que je n'avais pas besoin de fonction pour expliquer ca.
+# J'aurais pu faire
+tab1 = [1,2,3]
+print ("Tableau de depart")
+print (tab1)
+
+tab2 = tab1
+tab2[1]=42
+print ("Apres modif d'une case de tab2")
+print(tab1)
+
+tab2 = [0,0,0]
+print ("Apres dereferencement de tab2")
+print(tab1)
+
+
 
 '''
 #LES EXPLICATIONS
