@@ -16,7 +16,6 @@ def AjoutPos(tete, valeur,pos):
     for i in range(pos-1):
         courant = courant.suivant
 
-
     new = Noeud(valeur)
     new.suivant = courant.suivant
     courant.suivant = new
@@ -35,9 +34,9 @@ def append(tete, valeur):
         new = Noeud(valeur)
         courant.suivant = new
         return tete
-
-    new = Noeud(valeur)
-    return new
+    else :
+        new = Noeud(valeur)
+        return new
 
 
 class Noeud():
